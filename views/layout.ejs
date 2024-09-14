@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>后台管理</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>后台管理</h1>
+        <% if (messages.success_msg) { %>
+            <div class="success"><%= messages.success_msg %></div>
+        <% } %>
+        <% if (messages.error_msg) { %>
+            <div class="error"><%= messages.error_msg %></div>
+        <% } %>
+        <%- body %>
+    </div>
+</body>
+</html>
