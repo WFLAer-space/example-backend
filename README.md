@@ -1,4 +1,6 @@
 Example backend for the web application
+
+``` text
 web-backend
 │
 ├── models
@@ -16,3 +18,4 @@ web-backend
 │   └── layout.ejs
 │
 └── app.js
+```
